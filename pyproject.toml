@@ -22,4 +22,4 @@ dependencies = [
 
 # --- THIS FIXES YOUR ERROR ---
 [tool.setuptools]
-py-modules = ["gradients"]
+packages = ["mpl_gradients"]
