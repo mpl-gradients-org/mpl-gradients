@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mpl-gradients"
+version = "0.1.0"
+description = "Gradient fills for Matplotlib charts using Agg filters"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+  {name = "Sanrishi", email = "sharmasanchitrishi@mail.com"}
+]
+dependencies = [
+  "matplotlib",
+  "numpy"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sanrishi/mpl-gradients"
+
+# --- THIS FIXES YOUR ERROR ---
+[tool.setuptools]
+py-modules = ["gradients"]

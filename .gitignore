@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+*.pyc
+mpl_gradients.egg-info/
+*.png
