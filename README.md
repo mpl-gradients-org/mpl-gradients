@@ -51,7 +51,7 @@ Matplotlib
 
 Numpy
 
-## New in v0.2.0: Transparency Support
+## New in v0.2.1: Transparency Support
 
 You can now create gradients that fade to transparent!
 
