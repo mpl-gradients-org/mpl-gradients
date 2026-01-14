@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap, to_rgba
 
-__version__ = "0.1.0"
+__version__ = "0.2.1"
 __all__ = ["LinearGradient", "colors2cmap", "apply_gradient"]
 
 
