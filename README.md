@@ -1,12 +1,22 @@
-# mpl-gradients
+
+
+
 
 [![PyPI version](https://badge.fury.io/py/mpl-gradients.svg)](https://badge.fury.io/py/mpl-gradients)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![Gradient Demo](examples/demo_output.png)
+<img width="819" height="421" alt="image" src="https://github.com/user-attachments/assets/bcd791ba-6cc6-404a-9cf4-839ae227a056" />
 
-A lightweight, zero-dependency library to add linear gradient fills to Matplotlib charts.
-*Solves [matplotlib/matplotlib#30958](https://github.com/matplotlib/matplotlib/issues/30958).*
+A zero-dependency plotting utility that implements vectorized gradient rendering for Matplotlib Figure and Axes objects. Unlike other styling libraries that require heavy dependencies (like Pillow or Qt), mpl-gradients leverages NumPy broadcasting to generate gradient arrays directly within the Matplotlib canvas.
+
+<img width="826" height="415" alt="image" src="https://github.com/user-attachments/assets/1d17679a-6162-43f2-aab5-5e53642d1482" />
+
+ This approach ensures compatibility with all Matplotlib backends while maintaining a minimal footprint. Key features include support for variable alpha channels (transparency), arbitrary gradient angles, and multi-color transitions, all optimized for rendering speed.
+ 
+<img width="826" height="363" alt="image" src="https://github.com/user-attachments/assets/cf069f22-03ce-49ba-ae66-1ad764b45b02" />
+
+
+
 
 ## 📦 Installation
 
