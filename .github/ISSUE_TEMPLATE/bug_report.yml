@@ -1,0 +1,37 @@
+name: 🐛 Bug Report
+description: Create a report to help us improve mpl-gradients
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction Code
+      description: Please provide a minimal code snippet that reproduces the error.
+      render: python
+      value: |
+        import matplotlib.pyplot as plt
+        from mpl_gradients import gradient_fill
+
+        # Your code here...
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: What version of matplotlib and mpl-gradients are you using?
+      placeholder: "matplotlib: 3.8.0, mpl-gradients: 0.1.0"
+    validations:
+      required: true
