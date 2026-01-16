@@ -1,6 +1,6 @@
 import pytest
 import matplotlib.pyplot as plt
-from mpl_gradients import gradient_fill  # Adjust this import if your function name is different!
+from mpl_gradients import apply_gradient# Adjust this import if your function name is different!
 
 def test_import():
     """Test that the library imports without crashing."""
